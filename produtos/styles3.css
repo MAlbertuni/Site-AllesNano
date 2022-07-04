@@ -1,0 +1,178 @@
+/* Gerais */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+    margin: 0;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+
+/* Barra de Navegação */
+header, .navbar {
+    background-color: white;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#navbarSupportedContent a {
+    color: #1D294B;
+    transition: 0.5s;
+}
+
+#navbarSupportedContent a:hover{
+    color: #FD9924;
+    transition: 0.5s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 15px 70px
+}
+
+.btn-contact {
+    background-color: #FD9924;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.btn-contact:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+
+/* Rodapé */
+/* Rodapé */
+
+footer {
+    background-color: #1D294B;
+}
+
+footer h5 {
+    color: #FD9924;
+}
+
+.copyright {
+    margin-top: 15px;
+}
+
+footer .container {
+    padding-bottom: 0;
+    margin-left: 5%;
+}
+
+/* Produto */
+.area-menu {
+    display: flex;
+    align-items: center;
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.imagem {
+    width: 350px;
+    height: 350px;
+    margin-left: 100px;
+}
+
+.produto-informação {
+    margin-left: 100px;
+}
+
+.produto-informação h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #1D294B;
+}
+
+.produto-informação p {
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: #1D294B;
+}
+
+.produto-informação a {
+    border: 2px solid #1D294B;
+    color: #1D294B;
+    font-weight: 400;
+    transition: all .5s;
+}
+
+.produto-informação a:hover {
+    background-color: #1D294B;
+    color: white;
+    transition: all .5s;
+}
+
+.preço {
+    font-weight: 500;
+}
+
+/* Celular */
+@media(max-width: 425px) {
+    footer .container {
+        margin-left: 2.5%;
+    }
+
+    .container {
+        padding: 20px 0;
+    }
+
+    .area-menu {
+        flex-direction: column;
+    }
+
+    
+    .imagem {
+        width: 250px;
+        height: 250px;
+        margin-left: 0;
+    }
+    
+    .produto-informação {
+        margin-left: 0;
+        margin-top: 5%;
+    }
+
+    .produto-informação h1 {
+        margin-top: 30px;
+        font-size: 30px;
+        margin-left: 15%;
+    }
+
+    .produto-informação p {
+        margin-left: 7%;
+    }
+
+    .produto-informação .preço {
+        margin-left: 150px;
+    }
+
+    .produto-informação a {
+        margin-left: 140px;
+    }
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #FD9924;
+    border-radius: 20px;
+}
