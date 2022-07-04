@@ -168,6 +168,32 @@ footer .container {
     }
 }
 
+@media (max-width: 960px){
+    .produto-informação h1 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 870px){
+    .imagem {
+        width: 275px;
+        height: 275px;
+    }
+}
+
+@media(max-width: 700px){
+    .area-menu {
+        flex-direction: column;
+    }
+    .produto-informação {
+        margin-top: 50px;
+        margin-left: 115px;
+    }
+    .imagem {
+        margin-left: 0;
+    }
+}
+
 ::-webkit-scrollbar{
     width: 10px;
 }
