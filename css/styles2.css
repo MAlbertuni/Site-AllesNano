@@ -438,7 +438,7 @@ footer .container {
     .img-fluid {   
         width: 230px;
         height: 310px;
-        margin-left: 9%;
+        margin-left: 0;
         margin-top: 10px;
     }
 
