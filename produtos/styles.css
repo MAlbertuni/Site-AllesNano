@@ -126,7 +126,7 @@ footer .container {
 /* Celular */
 @media(max-width: 425px) {
     footer .container {
-        margin-left: 2.5%;
+        margin-left: 0;
     }
 
     .container {
@@ -166,6 +166,7 @@ footer .container {
     .produto-informação a {
         margin-left: 140px;
     }
+    
 }
 
 ::-webkit-scrollbar{

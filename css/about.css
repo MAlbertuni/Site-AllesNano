@@ -188,6 +188,9 @@ footer .container {
     .sobre-text2 span {
         font-size: 20px;
     }
+    footer .container {
+        margin-left: 0;
+    }
 }
 
 ::-webkit-scrollbar{
