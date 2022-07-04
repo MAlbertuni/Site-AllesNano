@@ -34,24 +34,29 @@
 
     <!--Barra de Navegação-->
     <header>
-        <div class="container" id="nav-container">
-            <nav class="navbar navbar-expand-lg fixed-top">
-                
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbar-links">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" id="home-menu" href="index2.html">Home</a>
-                        <a class="nav-item nav-link" id="about-menu" href="#scrollspyHeading1">Sobre Nós</a>
-                        <a class="nav-item nav-link" id="products-menu" href="index2.html">Produtos</a>
-                        <a class="nav-item nav-link" id="services-menu" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Serviços</a>
-                        <a class="nav-item nav-link" id="contact-menu" href="#scrollspyHeading3"><button class="btn-contact">Contato</button></a>
-                    </div>
-                </div> 
-            </nav>
-        </div>
-    </header>
+      <div class="container" id="nav-container">
+          <nav class="navbar navbar-expand-lg fixed-top">
+            <div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+            </div>
+
+
+              <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                  <div class="navbar-nav">
+                      <a class="nav-item nav-link" id="home-menu" href="../html/index2.html">Home</a>
+                      <a class="nav-item nav-link" id="about-menu" href="about.html">Sobre Nós</a>
+                      <a class="nav-item nav-link" id="products-menu" href="../html/index2.html">Produtos</a>
+                      <a class="nav-item nav-link" id="services-menu" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Serviços</a>
+                      <a class="nav-item nav-link" id="contact-menu" href="#scrollspyHeading3">
+                      <button class="btn-contact">Contato</button></a>
+                  </div>
+              </div> 
+          </nav>
+      </div>
+  </header>
 
     <!--Modal-->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -73,7 +78,7 @@
         <div class="area">
           <div class="sobre-text">
             <div class="sobre-img">
-              <img src="../img/foto-pessoal.png" class="imagem">
+              <img src="../img/foto-pessoal.png" class="imagem" id="scrollspyHeading1">
             </div> 
             <p> <span>Missão</span> <br> Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Perspiciatis, laborum!</p>           
           </div>
