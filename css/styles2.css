@@ -27,17 +27,38 @@ header, .navbar {
 }
 
 #navbarSupportedContent a {
-    color: #1D294B;
-    transition: 0.5s;
+   position: relative;
+   color: #2D3D6B;
+   font-size: 18px;
 }
 
-#navbarSupportedContent a:hover{
+#navbarSupportedContent a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #FD9924;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+#navbarSupportedContent a:hover::before{
     color: #FD9924;
-    transition: 0.5s;
+    transform-origin: left;
+    transform: scaleX(1);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 15px 70px
+}
+
+.logo-nav {
+    width: 50px;
+    height: 50px;
 }
 
 .btn-contact {
@@ -64,17 +85,19 @@ header, .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .home-text  {
     margin-left: 100px;
+    margin-top: 100px;
 }
 
 .home-text h1 {
     margin-top: 20px;
     font-size: 70px;
     font-weight: 600;
-    color: #E8716B;
+    color: #FD9924;
 }
 
 .home-text p {
@@ -101,9 +124,11 @@ header, .navbar {
 }
 
 .img-fluid {   
-    width: 39vw;
-    height: 112vh;
-    margin-right: 50px;
+    width: 400px;
+    height: 400px;
+    margin-right: 150px;
+    margin-top: 200px;
+    margin-bottom: 50px;
 }
 /* .img-fluid {
     width: 500px;
@@ -319,16 +344,16 @@ footer .container {
 
 @media(min-widht: 1300px){
     .img-fluid{
-        width: 500px;
-        height: 700px;
+        width: 400px;
+        height: 400px;
     }
 }
 
 @media(max-width: 1208px){
     /* geral */
     .img-fluid{
-        width: 500px;
-        height: 700px;
+        width: 375px;
+        height: 375px;
     }
     .regulamentador {
         margin-left: 2.5%;
@@ -345,8 +370,8 @@ footer .container {
         
     }
     .img-fluid {
-        width: 531px;
-        height: 700px;
+        width: 375px;
+        height: 375px;
     }
     .card {
         width: 13.75rem;
@@ -378,8 +403,8 @@ footer .container {
     }
 
     .img-fluid {   
-        width: 434px;
-        height: 520px;
+        width: 350px;
+        height: 350px;
         margin-right: 0;
     }
 
@@ -437,9 +462,9 @@ footer .container {
 
     .img-fluid {   
         width: 230px;
-        height: 310px;
+        height: 230px;
         margin-left: 0;
-        margin-top: 10px;
+        margin-top: 50px;
     }
 
     .main-title {
