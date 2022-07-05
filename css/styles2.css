@@ -320,6 +320,60 @@ main.cards section.carde span {
 
 }
 
+.parceiros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.parceiros h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: #2D3D6B;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.parcerias {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;   
+    
+}
+
+.biopark {
+    margin-right: 500px;
+}
+
+.biopark h2 {
+    margin-left: 35px;
+    margin-bottom: 20px;
+    color: #2D3D6B;
+    font-weight: bold;
+}
+
+.biopark img {
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    margin-bottom: 50px;
+}
+
+.heide h2 {
+    margin-left: 55px;
+    margin-bottom: 20px;
+    color: #2D3D6B;
+    font-weight: bold;
+}
+.heide img {
+    border-radius: 500px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+
 /* Rodapé */
 
 footer {
@@ -494,6 +548,22 @@ footer .container {
 
     footer .container {
         margin-left: 0;
+    }
+
+    .parcerias {
+        flex-direction: column;
+    }
+
+    .heide h2 {
+        margin-left: 60px;
+    }
+
+    .biopark {
+        margin-left: 500px;
+    }
+    
+    .biopark h2 {
+        margin-left: 45px;
     }
 }
 
